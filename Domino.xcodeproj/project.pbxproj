@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8368AA5F29BE5598005A9FEE /* DominoGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA5E29BE5598005A9FEE /* DominoGameView.swift */; };
+		8368AA6129BE5647005A9FEE /* RulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA6029BE5647005A9FEE /* RulesView.swift */; };
+		8368AA6329BE58D9005A9FEE /* DominoGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA6229BE58D9005A9FEE /* DominoGameViewModel.swift */; };
+		8368AA6529BE5971005A9FEE /* Domino.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA6429BE5971005A9FEE /* Domino.swift */; };
+		8368AA6729BE59E1005A9FEE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA6629BE59E1005A9FEE /* Player.swift */; };
+		8368AA6929BE5A1A005A9FEE /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8368AA6829BE5A1A005A9FEE /* GameBrain.swift */; };
 		83F1D9B929BE538500E32BC8 /* DominoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1D9B829BE538500E32BC8 /* DominoApp.swift */; };
 		83F1D9BB29BE538500E32BC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F1D9BA29BE538500E32BC8 /* ContentView.swift */; };
 		83F1D9BD29BE538700E32BC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F1D9BC29BE538700E32BC8 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8368AA5E29BE5598005A9FEE /* DominoGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoGameView.swift; sourceTree = "<group>"; };
+		8368AA6029BE5647005A9FEE /* RulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesView.swift; sourceTree = "<group>"; };
+		8368AA6229BE58D9005A9FEE /* DominoGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoGameViewModel.swift; sourceTree = "<group>"; };
+		8368AA6429BE5971005A9FEE /* Domino.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domino.swift; sourceTree = "<group>"; };
+		8368AA6629BE59E1005A9FEE /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8368AA6829BE5A1A005A9FEE /* GameBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
 		83F1D9B529BE538500E32BC8 /* Domino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F1D9B829BE538500E32BC8 /* DominoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoApp.swift; sourceTree = "<group>"; };
 		83F1D9BA29BE538500E32BC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +67,12 @@
 				83F1D9BA29BE538500E32BC8 /* ContentView.swift */,
 				83F1D9BC29BE538700E32BC8 /* Assets.xcassets */,
 				83F1D9BE29BE538700E32BC8 /* Preview Content */,
+				8368AA5E29BE5598005A9FEE /* DominoGameView.swift */,
+				8368AA6029BE5647005A9FEE /* RulesView.swift */,
+				8368AA6229BE58D9005A9FEE /* DominoGameViewModel.swift */,
+				8368AA6429BE5971005A9FEE /* Domino.swift */,
+				8368AA6629BE59E1005A9FEE /* Player.swift */,
+				8368AA6829BE5A1A005A9FEE /* GameBrain.swift */,
 			);
 			path = Domino;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8368AA6929BE5A1A005A9FEE /* GameBrain.swift in Sources */,
+				8368AA6129BE5647005A9FEE /* RulesView.swift in Sources */,
+				8368AA6529BE5971005A9FEE /* Domino.swift in Sources */,
 				83F1D9BB29BE538500E32BC8 /* ContentView.swift in Sources */,
 				83F1D9B929BE538500E32BC8 /* DominoApp.swift in Sources */,
+				8368AA6729BE59E1005A9FEE /* Player.swift in Sources */,
+				8368AA5F29BE5598005A9FEE /* DominoGameView.swift in Sources */,
+				8368AA6329BE58D9005A9FEE /* DominoGameViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

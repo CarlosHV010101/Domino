@@ -7,6 +7,7 @@
 
 import Foundation
 
+///Estructura para el control de fichas
 struct GameBrain {
     
     private var tales: [Domino] = [

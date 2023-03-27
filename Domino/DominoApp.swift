@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///Contenedor principal de la aplicación
 @main
 struct DominoApp: App {
     var body: some Scene {

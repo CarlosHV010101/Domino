@@ -7,6 +7,7 @@
 
 import Foundation
 
+///Estructura de ficha de Domino
 struct Domino: Identifiable, Hashable {
     let id: Int
     let imageName: String

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///Vista de juego
 struct DominoGameView: View {
     @StateObject private var viewModel: DominoGameViewModel
     @State private var leftDominoRotationDegrees: CGFloat = 0

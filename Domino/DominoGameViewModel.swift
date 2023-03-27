@@ -7,6 +7,7 @@
 
 import Foundation
 
+///View Model de vista de juego
 class DominoGameViewModel: ObservableObject {
     @Published var player1: Player = Player(name: "Jugador 1", hand: [])
     @Published var player2: Player = Player(name: "Jugador 2", hand: [])

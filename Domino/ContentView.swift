@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///Primera vista de la aplicación
 struct ContentView: View {
     
     var body: some View {

@@ -7,6 +7,7 @@
 
 import Foundation
 
+///Clase de jugador
 class Player {
     var id: UUID = UUID()
     var name: String

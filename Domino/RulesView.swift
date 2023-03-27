@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+///Vista de regla
 struct DominoRulesView: View {
     let rules = [
             "El juego se juega con 28 fichas o piezas. Cada ficha tiene dos lados, cada uno de los cuales tiene entre cero y seis puntos.",

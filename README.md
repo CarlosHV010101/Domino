@@ -19,8 +19,8 @@ _Mac OS 13 mínimo
 git clone https://github.com/CarlosHV010101/Domino.git
 ```
 
-### Demo 🔧
+### Demo 🎮
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Aquí hay un video de demostración de como funciona la aplicación_
 
-_Dí cómo será ese paso_
+_https://youtu.be/qfSGwVClpDM_
